@@ -1,0 +1,391 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+nav, article,
+footer,
+section { 
+  display: block;
+  min-width: 780px;
+
+}
+nav {
+  background: grey;
+  height: 5rem;
+}
+article{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hawaii.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  text-align: right;
+}
+footer {
+  display: flex;
+  background: #1B4F72;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+section {
+  background: white;
+  height: 125rem;
+  display: block !important;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+.botones{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+
+}
+.botones button{
+  margin: 5px;
+}
+
+.btn-transparente {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+
+}
+
+
+.contenedor-principal{
+  flex-direction: column;
+  margin-left: 50%;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+}
+
+.oradores{
+  width: 100%;
+  height: 35rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.cuadrado{
+  width: 30%;
+  min-width: 25%;
+  height: 33rem;
+  min-height: 30rem;
+  background-color: white;
+  border: 1px grey solid;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 100%;
+  grid-gap: 0px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.imag{
+ width: 100%;
+ height: 20rem;
+}
+
+.texto-ima{
+ width: 100%;
+ height: 10rem;
+ background-color: white;
+
+}
+/*.oradores{
+  background-color: white;
+  height: 35rem;
+  flex-direction: column;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  justify-content: space-between;
+}
+
+.cuadrado:nth-child(2){
+  width:98%;
+  height: 100%;
+  background-color: yellow;
+}
+.cuadrado:nth-child(3){
+  width:98%;
+  height: 100%;
+  background-color: red;
+}
+.cuadrado:nth-child(4){
+  width:98%;
+  height: 100%;
+  background-color: blue;
+}*/
+.octubre{
+  background-color: #302c2c;
+  height: 25rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 48%; 
+  gap: 0px;
+}
+.form-ultimo{
+  background-color: white;
+  height: 22rem;
+  color: black;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-comprar{
+  background-color: white;
+  height: 22rem;
+  color: black;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tarjetas{
+background-color: white;
+height: 10rem;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+/*justify-content: space-between;*/
+align-items: center;
+justify-content: center
+}
+
+.estudiante{
+background-color: white;
+height: 10rem;
+width: 25%;
+margin-left: 5rem;
+border: 2px solid blue;
+}
+
+.trainee{
+background-color: white;
+height: 10rem;
+width: 25%;
+margin-right: 0.5rem;
+margin-left: 0.5rem;
+border: 2px solid lightblue;
+}
+
+.junior{
+background-color: white;
+height: 10rem;
+width: 25%;
+margin-right: 5rem;
+border: 2px solid yellow;
+
+}
+
+.texto-gris{
+  color: grey;
+
+}
+.texto-negro{
+   font-weight: bold;
+
+}
+.texto-negro-grande{
+   font-weight: bold;
+   font-size: 2em;
+
+}
+.formu{
+  background-color: white;
+  height: 15rem;
+  color: black;
+  display: block;
+  text-align: center;
+
+}
+.formu input{
+  width: 500px;
+}
+
+.formu textarea{
+  width: 80%;
+  height: 100px;
+}
+
+.formu button{
+
+  background-color: green;
+  border: 1px solid #ffffff;
+  color: white;
+  border-radius: 5px;
+  padding: 0.3rem 38%;
+
+}
+
+.form-ultimo p{
+
+  padding: 0px !important;
+  margin-bottom: 0rem !important;}
+
+.formuu{
+  background-color: white;
+  height: 15rem;
+  color: black;
+  display: block;
+  text-align: center;
+
+}
+.formuu button{
+
+  background-color: green;
+  border: 1px solid #ffffff;
+  color: white;
+  border-radius: 5px;
+  padding: 0.3rem 14rem;
+
+}
+.total p{
+width: 1020px;
+color: blue;
+background-color: lightblue;
+border: 1px solid blue;
+text-align: left;
+padding: 9px;
+}
+.formuu input{
+  width: 500px;
+}
+.formuu select{
+  width: 430px;
+}
+
+.formuu .correo{
+   width: 1000px;
+}
+
+
+
+  .foto{
+    width: 100%;
+    height: 25rem;
+    word-wrap: break-word;
+    text-align: center;
+    align-items: center;
+
+
+  }
+
+  .texto{
+    background: #302c2c;
+    width: 100%;
+    height: 25rem;
+    word-wrap: break-word;
+    text-align: left;
+    align-items: center;
+    color: white;
+
+  }
+
+  footer ul li a {
+    text-decoration:none;
+    color: white;
+    margin: 1rem;
+
+  }
+
+  footer ul li{
+
+    list-style:none;
+    display:inline-block;
+  }
+
+  footer ul {
+    margin: 0 auto;
+  }
+
+  .form-ultimo a {
+    color: black;
+
+  }
+
+  .texto-caja{
+   word-break: break-all;
+   overflow: hidden;
+   margin: 0;
+   padding: .5rem;
+  /* font-size: 1.9vh;*/
+  font-size: 0.8em;
+   overflow: hidden;
+ }
+
+@media screen and (max-width: 400px) { 
+  .cuadrado{
+    
+  }
+ }
+
+ .oradores .cuadrado .texto-ima a{
+  text-decoration:none;
+    color: white;
+    background-color: darkblue;
+     border-radius: 3px;
+      font-weight: bold;
+
+ }
+
+ .amarillo{
+   color: black !important;
+    background-color: #ffd700 !important;
+
+
+ }
+
+  .gris{
+
+    background-color: grey !important;
+
+
+ }
+
+  .rojo{
+ 
+    background-color: red !important;
+
+
+ }
+
+ .total{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+ }

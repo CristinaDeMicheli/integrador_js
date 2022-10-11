@@ -41,7 +41,7 @@ footer {
 }
 section {
   background: white;
-  height: 125rem;
+  height: 130rem;
   display: block !important;
   flex-direction: column;
   text-align: center;
@@ -272,7 +272,7 @@ border: 2px solid yellow;
 
 }
 .total p{
-width: 1020px;
+width: 80%;
 color: blue;
 background-color: lightblue;
 border: 1px solid blue;
@@ -287,7 +287,7 @@ padding: 9px;
 }
 
 .formuu .correo{
-   width: 1000px;
+   width: 80%;
 }
 
 
